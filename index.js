@@ -119,4 +119,13 @@ console.log(esPar(2));
 
 //22.
 const arrayFunciones = [
-function suma (a,b) function resta(a - b),  ] 
+    function suma(a, b) {
+        return a + b;
+    },
+    function resta(a, b) {
+        return a - b;
+    },
+    function multiplicacion(a, b) {
+        return a * b;
+    },
+];
