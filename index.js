@@ -129,3 +129,32 @@ const arrayFunciones = [
         return a * b;
     },
 ];
+
+//23.
+function ordenarArray2(numeros2) {
+    return numeros2.sort((a, b) => a - b);
+}
+console.log(ordenarArray2([2, 5, 9, 8, 5, 7, 4, 5, 8, 7, 96, 3, 6, 5, 8, 47]));
+
+//24.
+function obtenerImpares(numeros3) {
+    return numeros3.filter((e) => e % 2 !== 0);
+}
+console.log(obtenerImpares([52, 98, 56, 47, 14]));
+
+//25.
+function sumarArray(numerico) {
+    let suma = 0;
+    for (i = 0; i < numerico.length; i++) suma += numerico[i];
+    return suma;
+}
+console.log(sumarArray([1, 2, 3]));
+
+//26.
+function multiplicarArray (arraynum){
+  let multiplicar = 1;
+    for (i = 0; i < arraynum.length; i++) 
+        multiplicar *= arraynum[i];
+    return multiplicar;
+}
+console.log(multiplicarArray([2, 3, 4]));
