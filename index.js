@@ -28,5 +28,17 @@ return palabra.split(' ');
 console.log(separarPalabras('hola mundo'));
 
 //8.
+function repetirString (texto , num){
+return texto.repeat(num);
+}
+console.log(repetirString('hola mundo ', 3));
+
+//9.
+function esPrimo (num){
+    if (num > 1){
+return false; 
+    }
+
+}
 
 
