@@ -80,3 +80,15 @@ function eliminarDuplicados(array1) {
 console.log(eliminarDuplicados([1, 2, 2, 5, 5, 5, 2, 3, 4, 4, 1]));
 
 //15.
+const arrayNumerosNeg =[0, -1, -2,-3,-4,-5,-6,-7,-8,-9];
+
+//16.
+let holaMundo  = ["hola", "mundo"];
+
+//17.
+let loGuardoTodo = ['hola', 'que', 23, 42.33, 'tal'];
+
+//18.
+let arrayDeArrays = [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']];
+
+//19.
