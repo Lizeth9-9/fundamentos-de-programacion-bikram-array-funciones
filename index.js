@@ -61,5 +61,22 @@ console.log(obtenerPares([52, 98, 56, 47, 14]));
 
 //12.
 function pintarArray(array) {
-    return array.join("[]");
+    return "[" + array.join(",") + "]";
 }
+console.log(pintarArray([0, 1, 2, 3]));
+
+//13.
+function arrayMapi(arra, funcion) {
+    return arra.map(funcion);
+}
+console.log(arrayMapi([0, 1, 2, 3], esPrimo));
+
+//14.
+function eliminarDuplicados(array1) {
+    return array1.filter((e, index) => {
+        return array1.indexOf(e) === index;
+    });
+}
+console.log(eliminarDuplicados([1, 2, 2, 5, 5, 5, 2, 3, 4, 4, 1]));
+
+//15.
