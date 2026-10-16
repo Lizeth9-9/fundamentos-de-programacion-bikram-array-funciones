@@ -48,13 +48,18 @@ function esPrimo(num) {
 console.log(esPrimo(37));
 
 //10.
-function ordenarArray(numeros){
-return numeros.sort((a, b)=> a - b);
+function ordenarArray(numeros) {
+    return numeros.sort((a, b) => a - b);
 }
-console.log(ordenarArray([52,98,56,47,14]));    
+console.log(ordenarArray([52, 98, 56, 47, 14]));
 
 //11.
-function obtenerPares (numeros){
-    return numeros
+function obtenerPares(numeros1) {
+    return numeros1.filter((e) => e % 2 === 0);
+}
+console.log(obtenerPares([52, 98, 56, 47, 14]));
 
+//12.
+function pintarArray(array) {
+    return array.join("[]");
 }
