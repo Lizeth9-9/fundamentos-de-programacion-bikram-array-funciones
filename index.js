@@ -80,15 +80,43 @@ function eliminarDuplicados(array1) {
 console.log(eliminarDuplicados([1, 2, 2, 5, 5, 5, 2, 3, 4, 4, 1]));
 
 //15.
-const arrayNumerosNeg =[0, -1, -2,-3,-4,-5,-6,-7,-8,-9];
+const arrayNumerosNeg = [0, -1, -2, -3, -4, -5, -6, -7, -8, -9];
 
 //16.
-let holaMundo  = ["hola", "mundo"];
+let holaMundo = ["hola", "mundo"];
 
 //17.
-let loGuardoTodo = ['hola', 'que', 23, 42.33, 'tal'];
+let loGuardoTodo = ["hola", "que", 23, 42.33, "tal"];
 
 //18.
-let arrayDeArrays = [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']];
+let arrayDeArrays = [
+    [756, "nombre"],
+    [225, "apellido"],
+    [298, "direccion"],
+];
 
 //19.
+function multiplicacion(a, b) {
+    return a * b;
+}
+console.log(multiplicacion(2, 2));
+
+//20.
+function division(a, b) {
+    return a / b;
+}
+console.log(division(2, 2));
+
+//21.
+function esPar(a) {
+    if (a % 2 === 0) {
+        return true;
+    } else if (a % 2 !== 0) {
+        return false;
+    }
+}
+console.log(esPar(2));
+
+//22.
+const arrayFunciones = [
+function suma (a,b) function resta(a - b),  ] 
